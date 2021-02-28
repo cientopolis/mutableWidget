@@ -2,7 +2,9 @@
 export const CAMERA = '_camera'
 export const AUDIO_RECORDING = '_audio_recording'
 export const CONTACTS = '_contacts'
-export const CAMERA_ROLL = '_camera_roll'
+// export const CAMERA_ROLL = '_camera_roll'
+export const MEDIA_LIBRARY = '_media_library'
+export const MEDIA_LIBRARY_WRITE_ONLY = '_media_library_write_only'
 export const CALENDAR = '_calendar'
 export const REMINDERS = '_reminders'
 export const SYSTEM_BRIGHTNESS = '_system_brightness'
@@ -28,7 +30,9 @@ export default {
   CAMERA,
   AUDIO_RECORDING,
   CONTACTS,
-  CAMERA_ROLL,
+  // CAMERA_ROLL,
+  MEDIA_LIBRARY,
+  MEDIA_LIBRARY_WRITE_ONLY,
   CALENDAR,
   REMINDERS,
   SYSTEM_BRIGHTNESS,

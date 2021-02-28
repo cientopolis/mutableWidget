@@ -7,7 +7,9 @@ import {
   CAMERA,
   AUDIO_RECORDING,
   CONTACTS,
-  CAMERA_ROLL,
+  // CAMERA_ROLL,
+  MEDIA_LIBRARY,
+  MEDIA_LIBRARY_WRITE_ONLY,
   CALENDAR,
   REMINDERS,
   SYSTEM_BRIGHTNESS,
@@ -28,8 +30,12 @@ const permissionMap = permission => {
       return Permissions.AUDIO_RECORDING
     case CONTACTS:
       return Permissions.CONTACTS
-    case CAMERA_ROLL:
-      return Permissions.CAMERA_ROLL
+    // case CAMERA_ROLL:
+    //   return Permissions.CAMERA_ROLL
+    case MEDIA_LIBRARY:
+      return Permissions.MEDIA_LIBRARY
+    case MEDIA_LIBRARY_WRITE_ONLY:
+      return Permissions.MEDIA_LIBRARY_WRITE_ONLY
     case CALENDAR:
       return Permissions.CALENDAR
     case REMINDERS:
